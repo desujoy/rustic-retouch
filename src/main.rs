@@ -95,7 +95,9 @@ fn main() {
 }
 
 fn print_usage_and_exit() {
-    println!("USAGE: [subcommand] [infile] [outfile] [args] [subcommand2] [infile] [outfile] [args] ...");
+    println!("Rustic Retouch - a simple image processing tool written in Rust.\n by: Sujoy De\n ");
+    println!("USAGE: [subcommand] [infile] [outfile] [args]");
+    println!("subcommands:");
     println!("blur INFILE OUTFILE amount(f32)");
     println!("brighten INFILE OUTFILE amount(i32)");
     println!("crop INFILE OUTFILE x(u32) y(u32) width(u32) height(u32)");

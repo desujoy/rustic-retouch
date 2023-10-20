@@ -7,7 +7,8 @@ fn main() {
     }
     let subcommand = args.remove(0);
     match subcommand.as_str() {
-        "blur" => { // Blur Effect
+        "blur" => { 
+            // Blur Effect
             if args.len() != 3 {
                 print_usage_and_exit();
             }
@@ -17,7 +18,8 @@ fn main() {
             blur(infile, outfile, amount);
         }
 
-        "brighten" => { // Brightening Effect
+        "brighten" => { 
+            // Brightening Effect
             if args.len() != 3 {
                 print_usage_and_exit();
             }

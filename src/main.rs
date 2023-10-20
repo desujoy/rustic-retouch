@@ -17,7 +17,7 @@ fn main() {
             blur(infile, outfile, amount);
         }
 
-        "brighten" => {
+        "brighten" => { // Brightening Effect
             if args.len() != 3 {
                 print_usage_and_exit();
             }

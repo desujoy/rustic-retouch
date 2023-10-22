@@ -19,7 +19,7 @@ fn main() {
         }
 
         "brighten" => {
-            // Brightening Effect
+            // Brightening Effect Added
             if args.len() != 3 {
                 print_usage_and_exit();
             }

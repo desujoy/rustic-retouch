@@ -42,7 +42,7 @@ fn main() {
             crop(infile, outfile, x, y, width, height);
         }
 
-        "rotate" => {
+        "rotate" => { // Code for rotating image
             if args.len() != 3 {
                 print_usage_and_exit();
             }

@@ -44,6 +44,7 @@ fn main() {
         }
 
         "rotate" => {
+            // Code for rotating image
             if args.len() != 3 {
                 print_usage_and_exit();
             }

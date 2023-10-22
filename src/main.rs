@@ -29,7 +29,8 @@ fn main() {
             brighten(infile, outfile, amount);
         }
 
-        "crop" => { // Cropping Feature Here
+        "crop" => {
+            // Cropping Feature Here
             if args.len() != 6 {
                 print_usage_and_exit();
             }
